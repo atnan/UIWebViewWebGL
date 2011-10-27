@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D89DC61D14592F50000FC7C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89DC61C14592F50000FC7C6 /* UIKit.framework */; };
+		D89DC61F14592F50000FC7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89DC61E14592F50000FC7C6 /* Foundation.framework */; };
+		D89DC62114592F50000FC7C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89DC62014592F50000FC7C6 /* CoreGraphics.framework */; };
+		D89DC62714592F50000FC7C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D89DC62514592F50000FC7C6 /* InfoPlist.strings */; };
+		D89DC62914592F50000FC7C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D89DC62814592F50000FC7C6 /* main.m */; };
+		D89DC62D14592F50000FC7C6 /* WGLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D89DC62C14592F50000FC7C6 /* WGLAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D89DC61814592F50000FC7C6 /* UIWebViewWebGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewWebGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89DC61C14592F50000FC7C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D89DC61E14592F50000FC7C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D89DC62014592F50000FC7C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D89DC62414592F50000FC7C6 /* UIWebViewWebGL-Info.plist */ = {isa = PBXFileReference; path = "UIWebViewWebGL-Info.plist"; sourceTree = "<group>"; };
+		D89DC62614592F50000FC7C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D89DC62814592F50000FC7C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D89DC62A14592F50000FC7C6 /* UIWebViewWebGL-Prefix.pch */ = {isa = PBXFileReference; path = "UIWebViewWebGL-Prefix.pch"; sourceTree = "<group>"; };
+		D89DC62B14592F50000FC7C6 /* WGLAppDelegate.h */ = {isa = PBXFileReference; path = WGLAppDelegate.h; sourceTree = "<group>"; };
+		D89DC62C14592F50000FC7C6 /* WGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D89DC61514592F50000FC7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89DC61D14592F50000FC7C6 /* UIKit.framework in Frameworks */,
+				D89DC61F14592F50000FC7C6 /* Foundation.framework in Frameworks */,
+				D89DC62114592F50000FC7C6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D89DC60D14592F4F000FC7C6 = {
+			isa = PBXGroup;
+			children = (
+				D89DC62214592F50000FC7C6 /* UIWebViewWebGL */,
+				D89DC61B14592F50000FC7C6 /* Frameworks */,
+				D89DC61914592F50000FC7C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D89DC61914592F50000FC7C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D89DC61814592F50000FC7C6 /* UIWebViewWebGL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89DC61B14592F50000FC7C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D89DC61C14592F50000FC7C6 /* UIKit.framework */,
+				D89DC61E14592F50000FC7C6 /* Foundation.framework */,
+				D89DC62014592F50000FC7C6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89DC62214592F50000FC7C6 /* UIWebViewWebGL */ = {
+			isa = PBXGroup;
+			children = (
+				D89DC62B14592F50000FC7C6 /* WGLAppDelegate.h */,
+				D89DC62C14592F50000FC7C6 /* WGLAppDelegate.m */,
+				D89DC62314592F50000FC7C6 /* Supporting Files */,
+			);
+			path = UIWebViewWebGL;
+			sourceTree = "<group>";
+		};
+		D89DC62314592F50000FC7C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D89DC62414592F50000FC7C6 /* UIWebViewWebGL-Info.plist */,
+				D89DC62514592F50000FC7C6 /* InfoPlist.strings */,
+				D89DC62814592F50000FC7C6 /* main.m */,
+				D89DC62A14592F50000FC7C6 /* UIWebViewWebGL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D89DC61714592F50000FC7C6 /* UIWebViewWebGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89DC63014592F50000FC7C6 /* Build configuration list for PBXNativeTarget "UIWebViewWebGL" */;
+			buildPhases = (
+				D89DC61414592F50000FC7C6 /* Sources */,
+				D89DC61514592F50000FC7C6 /* Frameworks */,
+				D89DC61614592F50000FC7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWebViewWebGL;
+			productName = UIWebViewWebGL;
+			productReference = D89DC61814592F50000FC7C6 /* UIWebViewWebGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D89DC60F14592F4F000FC7C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D89DC61214592F4F000FC7C6 /* Build configuration list for PBXProject "UIWebViewWebGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D89DC60D14592F4F000FC7C6;
+			productRefGroup = D89DC61914592F50000FC7C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D89DC61714592F50000FC7C6 /* UIWebViewWebGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D89DC61614592F50000FC7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89DC62714592F50000FC7C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D89DC61414592F50000FC7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89DC62914592F50000FC7C6 /* main.m in Sources */,
+				D89DC62D14592F50000FC7C6 /* WGLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D89DC62514592F50000FC7C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D89DC62614592F50000FC7C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D89DC62E14592F50000FC7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D89DC62F14592F50000FC7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D89DC63114592F50000FC7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewWebGL/UIWebViewWebGL-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewWebGL/UIWebViewWebGL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D89DC63214592F50000FC7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewWebGL/UIWebViewWebGL-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewWebGL/UIWebViewWebGL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D89DC61214592F4F000FC7C6 /* Build configuration list for PBXProject "UIWebViewWebGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89DC62E14592F50000FC7C6 /* Debug */,
+				D89DC62F14592F50000FC7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89DC63014592F50000FC7C6 /* Build configuration list for PBXNativeTarget "UIWebViewWebGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89DC63114592F50000FC7C6 /* Debug */,
+				D89DC63214592F50000FC7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D89DC60F14592F4F000FC7C6 /* Project object */;
+}
