@@ -13,6 +13,7 @@
 		D89DC62714592F50000FC7C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D89DC62514592F50000FC7C6 /* InfoPlist.strings */; };
 		D89DC62914592F50000FC7C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D89DC62814592F50000FC7C6 /* main.m */; };
 		D89DC62D14592F50000FC7C6 /* WGLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D89DC62C14592F50000FC7C6 /* WGLAppDelegate.m */; };
+		D89DC634145931B3000FC7C6 /* WebGL.html in Resources */ = {isa = PBXBuildFile; fileRef = D89DC633145931B3000FC7C6 /* WebGL.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,13 @@
 		D89DC61C14592F50000FC7C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D89DC61E14592F50000FC7C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D89DC62014592F50000FC7C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D89DC62414592F50000FC7C6 /* UIWebViewWebGL-Info.plist */ = {isa = PBXFileReference; path = "UIWebViewWebGL-Info.plist"; sourceTree = "<group>"; };
+		D89DC62414592F50000FC7C6 /* UIWebViewWebGL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebViewWebGL-Info.plist"; sourceTree = "<group>"; };
 		D89DC62614592F50000FC7C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D89DC62814592F50000FC7C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D89DC62A14592F50000FC7C6 /* UIWebViewWebGL-Prefix.pch */ = {isa = PBXFileReference; path = "UIWebViewWebGL-Prefix.pch"; sourceTree = "<group>"; };
-		D89DC62B14592F50000FC7C6 /* WGLAppDelegate.h */ = {isa = PBXFileReference; path = WGLAppDelegate.h; sourceTree = "<group>"; };
+		D89DC62A14592F50000FC7C6 /* UIWebViewWebGL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebViewWebGL-Prefix.pch"; sourceTree = "<group>"; };
+		D89DC62B14592F50000FC7C6 /* WGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLAppDelegate.h; sourceTree = "<group>"; };
 		D89DC62C14592F50000FC7C6 /* WGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLAppDelegate.m; sourceTree = "<group>"; };
+		D89DC633145931B3000FC7C6 /* WebGL.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WebGL.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +51,9 @@
 				D89DC61B14592F50000FC7C6 /* Frameworks */,
 				D89DC61914592F50000FC7C6 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		D89DC61914592F50000FC7C6 /* Products */ = {
 			isa = PBXGroup;
@@ -74,6 +78,7 @@
 			children = (
 				D89DC62B14592F50000FC7C6 /* WGLAppDelegate.h */,
 				D89DC62C14592F50000FC7C6 /* WGLAppDelegate.m */,
+				D89DC633145931B3000FC7C6 /* WebGL.html */,
 				D89DC62314592F50000FC7C6 /* Supporting Files */,
 			);
 			path = UIWebViewWebGL;
@@ -117,6 +122,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Nathan de Vries";
 			};
 			buildConfigurationList = D89DC61214592F4F000FC7C6 /* Build configuration list for PBXProject "UIWebViewWebGL" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -141,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D89DC62714592F50000FC7C6 /* InfoPlist.strings in Resources */,
+				D89DC634145931B3000FC7C6 /* WebGL.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +182,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -190,6 +197,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -254,6 +262,7 @@
 				D89DC63214592F50000FC7C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
